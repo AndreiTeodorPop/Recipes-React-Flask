@@ -1,4 +1,0 @@
-[submodule "client"]
-	path = client
-	url = https://github.com/AndreiTeodorPop/Recipes-React-Flask.git
-	branch = master
