@@ -1,0 +1,3 @@
+[submodule "Recipes-React-Flask"]
+	path = Recipes-React-Flask
+	url = https://github.com/AndreiTeodorPop/Recipes-React-Flask.git
