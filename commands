@@ -1,0 +1,32 @@
+// Flask
+$env:FLASK_APP="run.py"
+flask run
+
+
+# Create a requirements.txt file with installed packages
+pip freeze > requirements.txt
+
+
+pipenv install flask_migrate
+flask shell
+flask db init
+flask db migrate -m "add user table"
+flask db upgrade
+
+// React
+npx create-react-app client
+
+cd client
+
+serve -s build
+
+npm start
+
+# Install react-router -> https://reactrouter.com/en/main
+
+npm install react-router-dom
+
+# Install react-bootstrap -> https://react-bootstrap.netlify.app/
+
+npm install react-bootstrap bootstrap
+
